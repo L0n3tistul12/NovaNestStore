@@ -1,0 +1,94 @@
+body{
+    color: white;
+}
+#paypal-button-container {
+    position: absolute;
+    left: 800px;
+    top: 600px;
+}
+
+#Frame {
+    font-size: 40px;
+    color: transparent;
+    width: 1870px;
+    height: 990px;
+    background-color: rgb(59, 59, 59);
+    left: 0px;
+    position: absolute;
+    filter: blur(5px); /* Ajustează valoarea în px pentru a modifica nivelul de blur */
+    border: transparent;
+}
+
+#Checkout {
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    width: 400px;
+    height: 500px;
+    border: transparent;
+    border-radius: 5px;
+    color: transparent;
+    background-color: rgb(255, 255, 255);
+}
+
+#checkoutimg {
+    position: absolute;
+    left: 750px;
+    top: 210px;
+    width: 300px;
+}
+
+#text {
+    position: absolute;
+    left: 700px;
+    top: 150px;
+    background-color: transparent;
+    border: transparent;
+    font-size: 25px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#price {
+    position: absolute;
+    left: 820px;
+    z-index: 999;
+    top: 400px;
+    background-color: transparent;
+    border: transparent;
+    font-size: 25px;
+    color: rgb(255, 166, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#discountCode {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 730px;
+    top: 500px;
+    background-color: rgb(155, 155, 155);
+    border: transparent;
+    height: 30px;
+    border-radius: 2px;
+}
+
+#applyDiscount {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 920px;
+    top: 500px;
+    background-color: rgb(155, 155, 155);
+    border: transparent;
+    height: 30px;
+    border-radius: 2px;
+}
+
+#error-message {
+    position: absolute;
+    left: 730px;
+    top: 540px;
+    color: seagreen;
+}
+
+    
+

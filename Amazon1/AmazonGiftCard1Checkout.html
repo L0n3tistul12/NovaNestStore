@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="core.css">
+    <title>NovaNest Checkout</title>
+</head>
+<body>
+    <div id="paypal-button-container"></div>
+    <button id="Frame">Cart</button>
+    <button id="Checkout">Checkout</button>
+    <button id="text">NovaNest Checkout</button>
+    <div id="price">Price: £9.99</div>
+    <input type="text" id="discountCode" placeholder="Enter discount code">
+    <button id="applyDiscount">Apply Discount</button>
+    <img src="10£.webp" id="checkoutimg">
+    <script src="https://www.paypal.com/sdk/js?client-id=ASe6m0LWkIqM8KvKPMRf1Yn7zY5LWQCljHS7dVSsv-0MG2haFsfaNWfRL8p0vPbrth7aAyyUP9OMlcX-&disable-funding=credit,card"></script>
+    <script src="core.js"></script>
+    <script src="discount.js"></script>
+    <div>
+        <div id="error-message" style="color: red; display: none;">Make Sure The Discount You Used It s Valid!</div>
+    </div>
+</body>
+</html>
